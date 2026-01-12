@@ -1,0 +1,26 @@
+
+import { TarotCard, Suit } from './types';
+
+// Используем loremflickr для подбора тематических изображений по ключевым словам
+export const ORACLE_FULL_MOON: TarotCard[] = [
+  { id: '1', name: 'Луна', suit: Suit.MAJOR, meaning: 'Тайны, подсознание, иллюзии, женское начало.', image_url: 'https://loremflickr.com/300/500/moon,night,mystic/all', description: 'Полная луна сияет в ночном небе, освещая скрытые тропы души.' },
+  { id: '2', name: 'Сова', suit: Suit.MAJOR, meaning: 'Мудрость, ночное видение, скрытая информация, бдительность.', image_url: 'https://loremflickr.com/300/500/owl,bird,night/all', description: 'Мудрая сова наблюдает из темноты, видя то, что скрыто от других.' },
+  { id: '3', name: 'Зеркало', suit: Suit.MAJOR, meaning: 'Самопознание, отражение реальности, правда о себе.', image_url: 'https://loremflickr.com/300/500/mirror,vintage,mystic/all', description: 'Старинное зеркало показывает не внешность, а истинную суть вопрошающего.' },
+  { id: '4', name: 'Лабиринт', suit: Suit.MAJOR, meaning: 'Поиск пути, запутанная ситуация, внутренние блуждания.', image_url: 'https://loremflickr.com/300/500/labyrinth,maze,stone/all', description: 'Сложные тропы, ведущие к центру собственного "Я".' },
+  { id: '5', name: 'Ключ', suit: Suit.MAJOR, meaning: 'Решение, открытие новых дверей, доступ к секретам.', image_url: 'https://loremflickr.com/300/500/key,gold,old/all', description: 'Золотой ключ, способный отпереть любой замок судьбы.' },
+  { id: '6', name: 'Маска', suit: Suit.MAJOR, meaning: 'Обман, скрытые намерения, роль, которую мы играем.', image_url: 'https://loremflickr.com/300/500/mask,venetian,mystery/all', description: 'Театральная маска, скрывающая истинные чувства и лицо.' },
+  { id: '7', name: 'Тень', suit: Suit.MAJOR, meaning: 'Непризнанные качества, страхи, скрытая сила.', image_url: 'https://loremflickr.com/300/500/shadow,silhouette,dark/all', description: 'Темная фигура, следующая за светом, хранящая подавленные желания.' },
+  { id: '8', name: 'Свеча', suit: Suit.MAJOR, meaning: 'Надежда, вера, слабый свет в темноте, молитва.', image_url: 'https://loremflickr.com/300/500/candle,fire,dark/all', description: 'Одинокое пламя, прорезающее густой мрак неизвестности.' },
+  { id: '9', name: 'Песочные Часы', suit: Suit.MAJOR, meaning: 'Время, неизбежность, циклы, ожидание.', image_url: 'https://loremflickr.com/300/500/hourglass,time,sand/all', description: 'Золотистый песок неумолимо тече, отсчитывая моменты судьбы.' },
+  { id: '10', name: 'Ворон', suit: Suit.MAJOR, meaning: 'Вестник, магия, связь с миром духов, пророчество.', image_url: 'https://loremflickr.com/300/500/raven,crow,dark/all', description: 'Черный ворон несет на своих крыльях важные новости из тонкого мира.' },
+  { id: '11', name: 'Книга Тайн', suit: Suit.MAJOR, meaning: 'Знания, которые предстоит открыть, прошлое, судьба.', image_url: 'https://loremflickr.com/300/500/book,magic,old/all', description: 'Тяжелый фолиант с пустыми страницами, которые пишет само время.' },
+  { id: '12', name: 'Корабль', suit: Suit.MAJOR, meaning: 'Путешествие, перемены, надежды на будущее, движение.', image_url: 'https://loremflickr.com/300/500/ship,sea,fog/all', description: 'Призрачный корабль уходит в туманное море возможностей.' },
+  { id: '13', name: 'Дерево Рода', suit: Suit.MAJOR, meaning: 'Связь с предками, корни, стабильность, наследие.', image_url: 'https://loremflickr.com/300/500/tree,ancient,roots/all', description: 'Могучие ветви тянутся к небу, а корни уходят в глубокое прошлое.' },
+  { id: '14', name: 'Паутина', suit: Suit.MAJOR, meaning: 'Ловушка, интриги, взаимосвязанность всех вещей, судьба.', image_url: 'https://loremflickr.com/300/500/spiderweb,nature,dew/all', description: 'Тонкая, но прочная сеть, сплетенная невидимым мастером.' },
+  { id: '15', name: 'Кольцо', suit: Suit.MAJOR, meaning: 'Обязательства, союз, цикличность, верность.', image_url: 'https://loremflickr.com/300/500/ring,gold,jewelry/all', description: 'Замкнутый круг золота, символизирующий бесконечную связь.' },
+  { id: '16', name: 'Яд', suit: Suit.MAJOR, meaning: 'Опасность, токсичные отношения, зависть, осторожность.', image_url: 'https://loremflickr.com/300/500/poison,bottle,green/all', description: 'Флакон с темной жидкостью, манящий и опасный одновременно.' },
+  { id: '17', name: 'Письмо', suit: Suit.MAJOR, meaning: 'Официальные новости, сообщение, информация издалека.', image_url: 'https://loremflickr.com/300/500/letter,envelope,sealed/all', description: 'Запечатанный конверт, хранящий слова, способные изменить всё.' },
+  { id: '18', name: 'Лиса', suit: Suit.MAJOR, meaning: 'Хитрость, коварство, умение адаптироваться, стратегия.', image_url: 'https://loremflickr.com/300/500/fox,animal,forest/all', description: 'Рыжая лисица крадется сквозь высокую траву, выжидая момент.' },
+  { id: '19', name: 'Якорь', suit: Suit.MAJOR, meaning: 'Стабильность, привязанность, тяжесть, остановка.', image_url: 'https://loremflickr.com/300/500/anchor,sea,rust/all', description: 'Массивный якорь на дне, удерживающий от движения, но дающий покой.' },
+  { id: '20', name: 'Сердце', suit: Suit.MAJOR, meaning: 'Любовь, эмоции, привязанность, искренность.', image_url: 'https://loremflickr.com/300/500/heart,red,love/all', description: 'Пылающее сердце, излучающее тепло и уязвимость.' },
+];
