@@ -17,9 +17,11 @@ export interface TarotCard {
 }
 
 export enum SpreadType {
-  SINGLE = 'Одна карта',
-  THREE_CARD = 'Прошлое, Настоящее, Будущее',
-  RELATIONSHIP = 'Кельтский крест (мини)'
+  SINGLE = 'Карта дня',
+  THREE_CARD = 'Три тайны',
+  BOOMERANG = 'Бумеранг врагам',
+  EX_STATE = 'Как дела у бывшей?',
+  WEEKLY = 'Расклад на неделю'
 }
 
 export interface ReadingHistoryItem {
